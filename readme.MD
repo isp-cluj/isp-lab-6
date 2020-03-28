@@ -10,8 +10,8 @@ In this lab you will create small Java applications by using as reference an UML
 Given the UML class diagram above, implement the corresponding Java program.
 
 1. Create Java class based on the diagram above. 
-    * _PreventiveMeasures_ should offer comparing possibility by implementing Comparable<PreventiveMeasures>
-    * _Country_ should offer comparing possibility using Comparator<Country>
+    * _PreventiveMeasures_ should offer comparing possibility by implementing ```Comparable<PreventiveMeasures>```
+    * _Country_ should offer comparing possibility using ```Comparator<Country>```
 2. Demonstrate the functionality of application in Exercise1 class main method.
 3. Create minimal unit tests for testing the behavior of the program.
 
