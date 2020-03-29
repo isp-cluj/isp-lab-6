@@ -21,7 +21,15 @@ Given the UML class diagram above, implement the corresponding Java program.
 
 
 ## Exercise 2
+![Exercise 2 image](docs/ex2.jpg)
 
+Given the UML class diagram above, implement the corresponding Java program.
+
+1. Create Java class based on the diagram above
+    * _addWord_ method should override existing word if already exists. If synonyms are provided, all synonyms should already be in the dictionary. Method should return true if the word was successfully added or false if the word already existed.
+    * _deleteWord_ should return true if word was found and successfully deleted. 
+2. Demonstrate the functionality of application in Exercise1 class main method.
+3. Create unit tests for _addWord_, _deleteWord_, _searchWord_, _findSynonyms_ methods.
 
 ## Exercise 3
 
