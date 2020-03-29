@@ -1,8 +1,5 @@
 # Implement the following exercises
 
-In this lab you will create small Java applications by using as reference an UML class diagram. Please consider following general notes before start implementing:
-- toString() method when required will return a string like *ClassName{attributeName1=attributeValue1,...,attributeName=attributeValue}*.
-- Do not reuse (import) the same class in multiple exercises. **Each exercise is standalone and should be resolved in its package.**
 
 ## Exercise 1
 ![Exercise 1 image](docs/ex1.jpg)
@@ -10,9 +7,12 @@ In this lab you will create small Java applications by using as reference an UML
 Given the UML class diagram above, implement the corresponding Java program.
 
 1. Create Java class based on the diagram above. 
-    * _SensorReading_ should offer comparing possibility by implementing ```Comparable<SensorReading>```
-    * _Sensor_ should offer comparing possibility using ```Comparator<Sensor>```
+    * _SensorReading_ should should implement ```Comparable<SensorReading>``` for comparing by date and value
+    * _Sensor_ should use ```Comparator<SensorReading>``` for comparing _SensorReading_ by value
 2. Demonstrate the functionality of application in Exercise1 class main method.
+    * Use _SensorsCluster.addSensor_ to add few sensors
+    * Use _SensorsCluster.writeSensoreading_ to add some readings for previously added sensors
+    * Use _SensorsCluster.getSensorById_ to obtain a reference for a previously added sensor and display sorted readings by the 2 provided criterias
 3. Create minimal unit tests for testing the behavior of the program.
 
 **Note 1: Constructors and setter\getter methods are not represented in the diagram but can\should be implemented."**
