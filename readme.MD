@@ -1,7 +1,7 @@
 # Implement the following exercises
 
 In this lab you will create small Java applications by using as reference an UML class diagram. Please consider following general notes before start implementing:
-- toString() method when required will return a string like *ClassName{attributeName1=attributeValue1,...,attributeNamen=attributeValuen}*.
+- toString() method when required will return a string like *ClassName{attributeName1=attributeValue1,...,attributeName=attributeValue}*.
 - Do not reuse (import) the same class in multiple exercises. **Each exercise is standalone and should be resolved in its package.**
 
 ## Exercise 1
