@@ -11,7 +11,7 @@ Given the UML class diagram above, implement the corresponding Java program.
     * _Sensor_ should use ```Comparator<SensorReading>``` for comparing _SensorReading_ by value
 2. Demonstrate the functionality of application in Exercise1 class main method.
     * Use _SensorsCluster.addSensor_ to add few sensors
-    * Use _SensorsCluster.writeSensoreading_ to add some readings for previously added sensors
+    * Use _SensorsCluster.writeSensorReading_ to add some readings for previously added sensors. This method should search for sensor by sensorId and use the sensor addSensorReading() to add a new value. Method will return false if sensor cannot be found
     * Use _SensorsCluster.getSensorById_ to obtain a reference for a previously added sensor and display sorted readings by the 2 provided criterias
 3. Create minimal unit tests for testing the behavior of the program.
 
