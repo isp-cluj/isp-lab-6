@@ -1,7 +1,14 @@
 # Implement the following exercises
 
-
 ## Exercise 1
+
+Provide implementation for IReadingRepository interface. Follow description (method comments) from interface to identify exact behaviour needed.
+
+## Exercise 2
+
+Review classes Equipment and EquipmentController from package 'isp.lab6.exercise2'. Provide implementation for methods so that all tests from EquipmentControllerTest and EquipmentTest classes will pass.
+
+## Exercise 3
 ![Exercise 1 image](docs/ex1.jpg)
 
 Given the UML class diagram above, implement the corresponding Java program.
@@ -20,17 +27,6 @@ Given the UML class diagram above, implement the corresponding Java program.
 **Note 2: You can add any extra methods if required.**
 
 
-## Exercise 2
-![Exercise 2 image](docs/ex2.jpg)
-
-Given the UML class diagram above, implement the corresponding Java program.
-
-1. Create Java class based on the diagram above
-    * _addWord_ method should override existing word if already exists. If synonyms are provided, all synonyms should already be in the dictionary. Method should return true if the word was successfully added or false if a particular synonym not found in the dictionary.
-    * _deleteWord_ should return true if word was found and successfully deleted. 
-2. Demonstrate the functionality of application in Exercise1 class main method.
-3. Create unit tests for _addWord_, _deleteWord_, _searchWord_, _findSynonyms_ methods.
-
-## Exercise 3
+## Exercise 4
 
 Create a new version of ATM exercise from Laboratory 5 and use ArrayList instead of simple arrays[] for storing accounts in Bank class.
