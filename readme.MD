@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-Provide implementation for IReadingRepository interface. Follow description (method comments) from interface to identify exact behaviour needed.
+Provide implementation for IReadingRepository interface in an additional SensorReadingList class. Follow description (method comments) from interface to identify exact behaviour needed.
 
 ## Exercise 2
 
